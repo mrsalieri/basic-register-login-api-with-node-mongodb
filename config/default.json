@@ -1,0 +1,32 @@
+{
+  "General": {
+    "serviceName": "basic auth"
+  },
+  "JWTToken": {
+    "jwtPrivateKey": "def123"
+  },
+  "DB": {
+    "url": "mongodb://localhost/basicdb"
+  },
+  "Log": {
+    "logFile": "logfile.log",
+    "uncExcFile": "uncaughtExceptions.log"
+  },
+  "Language": {
+    "supportedLangs": "en,tr",
+    "defaultLang": "en"
+  },
+  "Hasher": {
+    "saltRounds": 10
+  },
+  "Swagger": {
+    "swaggerDefinition": {
+      "info": {
+        "title": "Basic Auth API",
+        "version": "1.0.0",
+        "description": "auth and user profile management services for demo purposes"
+      }
+    },
+    "apis": ["./routes/*.js"]
+  }
+}

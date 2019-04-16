@@ -1,0 +1,8 @@
+{
+  "JWTToken": {
+    "jwtPrivateKey": "test123"
+  },
+  "DB": {
+    "url": "mongodb://localhost/basicdb_tests"
+  }
+}
